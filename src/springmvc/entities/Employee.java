@@ -1,7 +1,7 @@
 
 package springmvc.entities;
 import java.util.Date;
-
+//雇员类
 public class Employee {
 
 	private Integer id;
