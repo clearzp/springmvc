@@ -18,10 +18,11 @@
 		<property name="prefix" value="/WEB-INF/views/"></property>
 		<property name="suffix" value=".jsp"></property>
 	</bean>
+	
 	<!-- 处理静态资源 default-servlet-name="default" 指定处理静态资源的Servlet是服务器Tomcat/conf/web.xml中提供的。 
 		Servlet的名称如果叫做"default"，那么可以省略这个属性配置 -->
 	<mvc:default-servlet-handler />
-
+	
 	<!-- 配置 <mvc:default-servlet-handler/>解决静态资源访问问题，但是，原来的映射路径都找不到了 -->
 	<mvc:annotation-driven />
 </beans> 
